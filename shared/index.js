@@ -45,7 +45,7 @@ function awardMarkup(id,quizState,withTitle=true){
 }
 const shelfSymbols = {
  hp1: ['Философский камень','<path d="m3 11 5-6h8l5 6-9 9zM3 11h18m-13-6 4 15 4-15"/>'],
- miles: ['Майлз и Найлз', '<path d="M5 4h13v16H5zM8 4v16m3-11h4m-4 4h4"/>'],
+ miles: ['Майлз и Найлз', '<path d="M6 9c0-3 2-5 6-5s6 2 6 5c0 4-2 10-6 10S6 13 6 9z"/><path d="M6 8C4 6 2 7 2 8s2 3 4 2M18 8c2-2 4-1 4 0s-2 3-4 2"/><path d="M7.5 5C7 3 5.5 2.5 4.5 3M16.5 5c.5-2 2-2.5 3-2"/><ellipse cx="12" cy="14" rx="4.2" ry="3.2"/><circle cx="10" cy="14.2" r=".55"/><circle cx="14" cy="14.2" r=".55"/><circle cx="9" cy="9" r=".55"/><circle cx="15" cy="9" r=".55"/>'],
  montague: ['Монтегю', '<path d="M9 12h6v8H9zM7 21h10M12 2c1 3 4 4 2 7-1 2-4 2-5 0s2-4 3-7z"/>'],
  white: ['Женщина в белом', '<rect x="5" y="3" width="14" height="15" rx="4"/><path d="M6 11h12M12 5v6m-4 7-3 4m11-4 3 4M8 20h8"/><circle cx="9" cy="14.5" r=".7"/><circle cx="15" cy="14.5" r=".7"/>'],
  ship: ['Чёрный корабль', '<path d="M12 2v13H4l8-13Zm2 4 6 9h-6zM3 17h18l-4 4H7z"/>'],
