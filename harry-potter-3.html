@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Гарри Поттер и узник Азкабана — книжная викторина</title>
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+<link rel="stylesheet" href="shared/quiz.css">
+</head><body>
+<header><div class="quiz-brand"><a class="catalog-back" href="harry-potter.html">← К книгам серии</a><div class="brand"><b aria-hidden="true">✦</b> Гарри Поттер</div></div><div class="header-tools"><div class="edition">КНИЖНАЯ ВИКТОРИНА · ДЖ. К. РОУЛИНГ</div><button id="music-toggle" class="music-button" aria-pressed="false" aria-label="Включить музыку">♫ Музыка: выкл</button></div></header>
+<div class="music-controls"><label for="music-volume">Громкость музыки</label><input id="music-volume" type="range" min="1" max="65" value="5"><span id="music-status" role="status" aria-live="polite"></span></div>
+<main class="shell" id="main"></main>
+<footer class="footer"><span>НЕКОТОРЫЕ ИСТОРИИ ОСТАЮТСЯ С ВАМИ.</span><a class="support-link" id="support-link" href="#" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">☕</span> На кофе Дядюшке Викторину</a></footer>
+<div id="overlay"></div>
+<script>
+window.QUIZ_CONFIG={"book": "hp3", "title": "узник Азкабана", "tab": "узник Азкабана", "eyebrow": "Книга третья · Дж. К. Роулинг", "intro": "От Ночного рыцаря до маховика времени. Какие детали третьей книги вы запомнили?", "praise": "Вы отлично помните третью книгу.", "image": "assets/hp3.webp", "alt": "Золотой маховик времени", "reward": "Знаток Хогвартса"};
+</script>
+<script src="questions/hp3.js"></script>
+<script src="assets/music/tracks.js"></script>
+<script src="questions/index.js"></script>
+<script src="shared/quiz.js"></script>
+</body></html>

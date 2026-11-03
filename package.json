@@ -1,0 +1,9 @@
+{
+  "name": "viktorin-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Книжные викторины Дядюшки Викторина — статический сайт",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
